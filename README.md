@@ -47,3 +47,11 @@ The models demonstrated the following macro-averaged evaluation accuracies on th
 * `/models` - Architecture summaries and frozen feature-extraction head layouts.
 * `/results` - Normalized confusion matrices and accuracy/loss curves.
 * `/report` - Thesis abstract and documentation copy.
+### 📋 Target Class Vocabulary
+The custom balanced dataset consists of 10,647 high-quality images mapped across 22 critical real-world traffic scenarios, ranging from regulatory restrictions to mandatory guidance indicators:
+
+* **Control & Context Signs:** No Road, Not Sign, Stop, General Caution
+* **Speed Restrictions:** Speed limits (20km/h, 30km/h, 50km/h, 60km/h, 80km/h) and End of speed limit (80km/h)
+* **Passing Regulations:** No passing, End of no passing
+* **Road & Curve Hazards:** Dangerous curve left, Dangerous curve right, Double curve
+* **Mandatory Turn & Directional Guidance:** Turn right ahead, Turn left ahead, Ahead only, Go straight or right, Go straight or left, Keep right, Keep left
